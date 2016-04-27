@@ -1,0 +1,10 @@
+#! /usr/bin/env escript
+%% -*- erlang -*- 
+%%! -pa _build/default/lib/eproto/ebin/ 
+
+-export([
+	main/1
+]).
+
+main(_Args) ->
+	eproto:benchmark().

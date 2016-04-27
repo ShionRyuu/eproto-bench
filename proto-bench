@@ -1,6 +1,6 @@
 #! /usr/bin/env escript
 %% -*- erlang -*- 
-%%! -pa _build/default/lib/eproto/ebin/ 
+%%! -pa _build/default/lib/eproto/ebin -pa _build/default/lib/protoc-erl2/ebin
 
 -export([
 	main/1
